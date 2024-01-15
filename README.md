@@ -1,6 +1,14 @@
 # usb_whisker_stim
 Simple USB device for whisker stimulation
 
+## Dependencies
+
+You need to install pyserial on the host pc to communicate with the Pico. The demo `trigger_stim.py` script also uses numpy.
+```
+pip install pyserial
+pip install numpy
+```
+
 ## Raspberry Pico code
 - All code to be uploaded to raspberry pico is available in `pico_whisker_stim`.
 - Before transferring the files make sure that MicroPython is flashed onto the board.
