@@ -20,8 +20,8 @@ for stim in stim_protocol:
         rep = ser.readline()
         print('output: ', rep.decode('utf-8'))
 
-        # wait 3 seconds between stimulations
-        time.sleep(3)
+        # wait 10 seconds between stimulations
+        time.sleep(10)
     except KeyboardInterrupt:
         break
 
