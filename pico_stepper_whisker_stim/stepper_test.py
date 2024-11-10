@@ -6,7 +6,7 @@ dir = Pin(13, Pin.OUT)
 opto = Pin(14, Pin.OUT)
 ena = Pin(15, Pin.OUT)
 
-n_steps = 1600
+n_steps = 400
 isi = 0.0009
 
 pul.value(0)

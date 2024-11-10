@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # Open serial port
-ser = serial.Serial('/dev/cu.usbmodem1401', 9600) # IMPORTANT: for some reason the port is cu vs tty
+ser = serial.Serial('/dev/cu.usbmodem11401', 9600) # IMPORTANT: for some reason the port is cu vs tty
 # clear buffer
 ser.reset_input_buffer()
 ser.reset_output_buffer()
