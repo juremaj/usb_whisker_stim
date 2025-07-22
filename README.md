@@ -1,14 +1,6 @@
 # usb_whisker_stim
 Simple USB device for whisker stimulation
 
-## Dependencies
-
-You need to install pyserial on the host pc to communicate with the Pico. The demo `trigger_stim.py` script also uses numpy.
-```
-pip install pyserial
-pip install numpy
-```
-
 ## Hardware
 - For instruction on how to wire up the device see the pictures in `resources/pics_stepper`
 - This involves three simple steps:
@@ -31,7 +23,8 @@ pip install numpy
 ## Demo
 - Once you have followed the instructions above you can test if the motor works
 - The code `trigger_stim.py` is an example of how the device can be used to randomly deliver one of the 2 pre-programmed stimuli
-- The only thing that needs to be changed is line 7 to tell the script where it can find the pico (this will depend on the OS and to which port the pico gets connected)
+- To run that code you will need to `pip install pyserial` and `pip install numpy` - ideally in a virtual environment such as conda
+- The only thing that needs to be changed is line 7 to tell the script where it can find the pico (this will depend on the OS and to which port the pico gets connected) 
 - This would usually be done by another script running the experimental protocol (for example the camera synchronisation scripts in `control_exp`)
 
 ## 'backup' folders
