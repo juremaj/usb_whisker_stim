@@ -28,4 +28,4 @@ Simple USB device for whisker stimulation
 - This would usually be done by another script running the experimental protocol (for example the camera synchronisation scripts in `control_exp`)
 
 ## 'backup' folders
-These contain older version of code and resources (mostly for a version using a servo instead of stepper motor) - these should be ignored.
+These contain older version of code and resources - these can be ignored.
