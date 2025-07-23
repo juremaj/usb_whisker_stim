@@ -2,12 +2,9 @@
 
 Electronics:
 - [Raspberry Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) 
-- [Miuzei Servo](https://www.amazon.fr/Miuzei-H%C3%A9licopt%C3%A8re-Voiture-V%C3%A9hicule-Commande/dp/B07KPS9845?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ADX1E4W4DEI4I&th=1)
+- [Motor](https://www.omc-stepperonline.com/fr/nema-8-bipolaire-1-8deg-4ncm-5-7oz-in-0-6a-6v-20x20x38mm-4-fils-8hs15-0604s?srsltid=AfmBOopk5yiqgoLouQ6k0vKjGUFTYhUCFirBDUTsyYDL8u_syfw4GUZw) (Nema 8 Bipolar 1.8deg 4Ncm(5.7oz.in) 0.6A 20x20x38mm 4 Wires model: 8HS15-0604S)
+- [Driver](https://www.omc-stepperonline.com/fr/pilote-numerique-pas-a-pas-0-3-2-2a-10-30vdc-pour-nema-8-11-14-16-17-moteur-pas-a-pas-dm320t?srsltid=AfmBOor4CZzB0a09o4nP59VcgGCvBjCYBjOBE6GV5xBhgGucQqpYNq2G) (Digital Stepper Driver 0.3-2.2A 10-30VDC for Nema 8, 11, 14, 16, 17 Stepper Motor, model: DM320T)
 
-3D print designs:
+External 3D print designs:
 - [Raspberry Pico Case](https://www.thingiverse.com/thing:4737733)
-- Servo holder (custom, see `resources/3dprint/servo_holder_v4.stl`)
 
-Useful links for software:
-- I implemented the servo control based on the Freenove Pico tutorial (see `resources/electronics/freenove_servo.pdf`)
-- For serial communication via USB I did everything based on the top answer in this [stack overflow thread](https://stackoverflow.com/questions/72151781/how-can-i-get-raspberry-pi-pico-to-communicate-with-pc-external-devices)
